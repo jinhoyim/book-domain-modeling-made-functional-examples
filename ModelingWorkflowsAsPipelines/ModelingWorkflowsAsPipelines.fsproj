@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Sections\Model.fs" />
+        <Compile Include="Sections\CommandsModule.fs" />
+        <Compile Include="Sections\ShoppingCardStateMachineModule.fs" />
+        <Compile Include="Sections\ValidateOrderStepModule.fs" />
+        <Compile Include="Sections\PricedOrderModule.fs" />
+        <Compile Include="Sections\PriceOrderValidationStepModule.fs" />
+        <Compile Include="Sections\OrderPlacingStateModule.fs" />
+        <Compile Include="Sections\AcknowledgeOrderStepModule.fs" />
+        <Compile Include="Sections\DocumentingEffectsModule.fs" />
+        <Compile Include="DomainApi.fs" />
+        <Compile Include="PlaceOrderWorkflow.fs" />
+        <Compile Include="Program.fs" />
+        <Compile Include="FirstPlaceOrderModule.fs" />
+        
+    </ItemGroup>
+
+</Project>
